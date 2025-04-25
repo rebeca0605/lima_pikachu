@@ -1,0 +1,109 @@
+:root{
+    --primary-color: #F5CF06;
+    --secondy-color: #8E4106;
+    --default-padding: 50px 80px;
+}
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+body{
+    font-family: "Righteous", sans-serif;
+    background-color: var(--primary-color);
+}
+
+header{
+    color: var(--secondy-color);
+    display: flex;
+    align-items: center;
+    padding: var(--default-padding);
+    gap: 25px;
+}
+
+main{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 700px;
+}
+
+main img{
+    align-items: flex-end;
+    position: absolute;
+    top: 290px;
+}
+
+main h1{
+    font-size: 395px;
+    justify-content: center;
+    position: absolute;
+    top: 90px;
+    z-index: -2;
+    color: white;
+    opacity: 20%;
+}
+
+main h2{
+    font-size: 300px;
+    position: absolute;
+    top: 255px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: -2;
+    color: white;
+}
+
+.container-slogan .slogan{
+    color: var(--secondy-color);
+    font-size: 60px;
+    align-items: flex-end;
+    position: absolute;
+    top: 640px;
+    left: 110px;
+}
+
+.container-slogan .text{
+    color: var(--secondy-color);
+    align-items: flex-end;
+    position: absolute;
+    top: 715px;
+    left: 110px;
+    height: 50px;
+}
+
+.download{
+    background-color: var(--secondy-color);
+    width: 411px;
+    height: 100px;
+    position: absolute;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 48px;
+    gap: 40px;
+    right: 40px;
+    bottom: 116px;
+}
+
+footer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: var(--secondy-color);
+    width: 100%;
+}
